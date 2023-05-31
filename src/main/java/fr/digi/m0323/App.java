@@ -1,5 +1,4 @@
 package fr.digi.m0323;
-
 import java.io.IOException;
 import java.util.ResourceBundle;
 import com.github.lalyos.jfiglet.FigletFont;
@@ -15,6 +14,5 @@ public class App {
         String environnement = ResourceBundle.getBundle("application").getString
                 ("environnement");
         System.out.println("Environnement : " + environnement);
-
     }
 }
